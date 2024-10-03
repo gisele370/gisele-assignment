@@ -1,0 +1,84 @@
+body{
+	margin: 0PX;
+	padding: 0PX;
+	width: 100%;
+}
+ul{
+	float: right;
+		margin: -40px 1px; 
+}
+ul li{
+	display: inline-flex;
+
+
+}
+ul li a{
+	padding: 5px 20px;
+	margin: -50px 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	transition: 0.5s;
+}
+ul li a:hover{
+	color: blue;
+}
+fieldset{
+	background: rgb(85, 200, 245);
+	border: none;
+}
+.logo{
+	color: white;
+	text-transform: uppercase;
+}
+.for{
+	display: flex;
+	padding: 15px 20px;
+}
+.for p{
+	padding: 15px 70px;
+	border: 1px solid lightgreen;
+	margin: 90px;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+.par{
+
+	border: 1px solid blue;
+	height: 90px;
+	background-color: rgb(112, 226, 226);
+}
+.par input{
+	margin-left: 300px;
+	height: 40px;
+	width: 200px;
+}
+ .par button{
+	background-color: red;
+	margin: 0px 600px;
+	border-radius: 10px;
+	height: 35px;
+	widows: 200px;
+	cursor: pointer;
+	margin-top: 2px;
+}
+.parag{
+	text-align: right;
+	margin:60px 0px ;
+}
+.img{
+	background-color: white;
+	display: flex;
+
+}
+.img p{
+	text-align: right;
+	margin-bottom: opx;
+	margin-left: 100px;
+	font-size: 28px;
+
+}
+.img img{
+	margin-left: 30px;
+	height: 300px;
+}
